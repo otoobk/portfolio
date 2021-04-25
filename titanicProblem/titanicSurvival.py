@@ -147,6 +147,12 @@ importances = pd.DataFrame({'feature':X_train.columns,'importance':np.round(rand
 importances = importances.sort_values('importance',ascending=False).set_index('feature')
 
 print(importances.head(15))
+print("")
+
+print("Original, uncleaed data:")
+print(original_train.loc[[6]])
+print("Cleaned data:")
+print(X_train.loc[[6]])
 
 classifiers = ('Naives Bayes', 'K-Nearest Neigherbors', 'Random Forest')
 y_pos = np.arange(len(classifiers))
