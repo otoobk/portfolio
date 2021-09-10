@@ -9,8 +9,8 @@ Once I had declared my approach and cleaned the data of all irrelevant values, I
 I chose to use three different classifiers which all produced varying accuracies.\
 The Naives Bayes Classifier produced the lowest accuracy, coming in around 77%.\
 The next best classifier was a K-Nearest Neighbors Classifier, which had an accuracy of around 85%.\
-Lastly, the random Forest Classifier produced outstanding results, tallying an accuracy of 98% on the testing set.\
-As well, in utilizing the Random Forest Classifier, I was able to gain insight on which particular data points had the largest impact on survival rate. The results expressed that age, sex, and the cost of the ticket for the passenger all played a large role in the likelihood of survival for that passenger.\
+Lastly, the Random Forest Classifier produced outstanding results, tallying an accuracy of 98% on the testing set.\
+As well, in utilizing the Random Forest Classifier, I was able to gain insight on which particular data points had the largest impact on survival rate. The results expressed that age, sex, and the cost of the ticket for the passenger all played a large role in the likelihood of survival for that passenger.
 
 ### Technologies
 A list of technologies used within the project:
